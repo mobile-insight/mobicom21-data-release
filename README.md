@@ -5,7 +5,7 @@ This repository releases the dataset and results of our MobiCom'21 paper "Experi
 
 ## Overview
 
-<p style="text-align:center;"><img src="figures/mobileinsight-overview.pdf" alt="Summary of dataset from MobileInsight" width="800"/></p>
+<p style="text-align:center;"><img src="figures/mobileinsight-overview.jpg" alt="Summary of dataset from MobileInsight" width="800"/></p>
 
 
 MobileInsight [2] is an open-source community tool to enable software-defined full-stack, runtime 4G/5G mobile network analytics inside our phones. In [1], we report our five-year lessons of developing and using MobileInsight. We present how MobileInsight evolves from a simple monitor to a community toolset with cross-layer analytics, energy-efficient real-time user-plane analytics, and extensible user-friendly analytics at the control and user planes. These features are enabled by various novel techniques, including cross-layer state machine tracking, missing data inference, and domain-specific cross-layer sampling. Their powerfulness is exemplified with a 5-year longitudinal study of operational mobile network latency using a 6.4TB dataset with 6.1 billion over-the-air messages. We further share lessons and insights of using MobileInsight by the community, as well as our visions of MobileInsight’s past, present, and future.
@@ -26,7 +26,7 @@ This repository includes the following contents:
 
 Since 2016, we have sporadically collected 4G/4.5G LTE over-the-air messages with the evolving MobileInsight and accumulated a five-year dataset. We ran MobileInsight over the test phones when using ping (primary), iperf, web, video streaming, or virtual reality applications in static, walking and driving scenarios. The following figure shows the accumulated dataset size every quarter and as of August 15, 2020. It has been collected from 50+ phone models and 58 global operators over 20+ countries and regions including the USA, China, India, South Korea, Singapore, France, Spain, Germany, Norway, Hungary, Egypt, Australia, New Zealand etc. Most data (82%) is collected in the US (AT\&T, Verizon, T-Mobile, Sprint, Google Fi), covering 39 states and 260,000+ miles. 
 
-<p style="text-align:center;"><img src="dataset/dataset-summary.pdf" alt="Summary of dataset from MobileInsight" width="400"/></p>
+<p style="text-align:center;"><img src="dataset/dataset-summary.jpg" alt="Summary of dataset from MobileInsight" width="400"/></p>
 
 Due to the space limit by Github, this repository only includes a compressed metadata of all messages from our dataset. For the complete raw dataset, please contact support@mobileinsight.net for full access.
 
