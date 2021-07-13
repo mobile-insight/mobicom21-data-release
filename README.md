@@ -1,7 +1,8 @@
 # Experience: A Five-Year Retrospective of MobileInsight
 
+##### Yuanjie Li, Chunyi Peng, Zhehui Zhang, Zhaowei Tan, Haotian Deng, Jinghao Zhao, Qianru Li, Yunqi Guo, Kai Ling, Boyan Ding, Hewu Li, Songwu Lu
 
-This repository releases the dataset and results of our MobiCom'21 paper "Experience: A Five-Year Retrospective of MobileInsight" [1]. 
+This repository contains the dataset and scripts of the MobiCom'21 paper "Experience: A Five-Year Retrospective of MobileInsight" [1]. 
 
 ## Overview
 
@@ -17,10 +18,10 @@ MobileInsight [2] is an open-source community tool to enable software-defined fu
 This repository includes the following contents:
 
 	|- mobicom21-data-release
-			|- dataset: The five-year dataset of the empirical studies in [1] 
-			|- figures: Source files of figures in [1]
-			|- mobicom21.pdf: The MobiCom'21 paper [1]
-			|- README.md: This file
+		|- dataset       - The five-year dataset of the empirical studies in [1] 
+		|- figures       - Source files of figures in [1]
+		|- mobicom21.pdf - The MobiCom'21 paper [1]
+		|- README.md     - This file
 
 ## Dataset
 
@@ -29,6 +30,16 @@ Since 2016, we have sporadically collected 4G/4.5G LTE over-the-air messages wit
 <p style="text-align:center;"><img src="dataset/dataset-summary.jpg" alt="Summary of dataset from MobileInsight" width="400"/></p>
 
 Due to the space limit by Github, this repository only includes a compressed metadata of all messages from our dataset. For the complete raw dataset, please contact support@mobileinsight.net for full access.
+
+**How to analyze the dataset:** Analyzing these datasets requires MobileInsight. The following tutorials detail how to extract the signaling messages, configurations, and channel conditions in LTE mobility management in this paper:
+
+- http://mobileinsight.net/get_started.html
+- http://mobileinsight.net/getstarteddesktop.html
+- http://mobileinsight.net/tutorial-api.html
+- http://mobileinsight.net/mobileinsight.analyzer.ltemeasurement_analyzer.html
+- http://mobileinsight.net/mobileinsight.analyzer.lterrc_analyzer.html
+- http://mobileinsight.net/mobileinsight.analyzer.mobilitymngt.html
+
 
 ## Figures
 
@@ -48,11 +59,19 @@ Besides the original dataset, we alao release the figure traces used in [1]'s ex
 
 ## Citation
 
-Please indicate the source-link when using it and cite our MobiCom paper [1]. In addition, please contact support@mobileinsight.net for any questions or technical support.
+Please indicate the source-link when using it and cite our MobiCom paper [1]. 
 
+## Contact
+Please contact support@mobileinsight.net for any questions or technical support.
 
 ## References
 
 [1] Yuanjie Li, Chunyi Peng, Zhehui Zhang, Zhaowei Tan, Haotian Deng, Jinghao Zhao, Qianru Li, Yunqi Guo, Kai Ling, Boyan Ding, Hewu Li, Songwu Lu, ""Experience: A Five-Year Retrospective of MobileInsight", ACM MobiCom 2021
 
 [2] MobileInsight, https://www.mobileinsight.net
+
+## License
+
+[![license](https://img.shields.io/badge/license-Apache2-blue.svg)](LICENSE)
+
+
