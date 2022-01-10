@@ -34,11 +34,11 @@ Due to the space limit by Github, this repository only includes a compressed met
 **How to analyze the dataset:** Analyzing these datasets requires MobileInsight. The following tutorials detail how to extract the signaling messages, configurations, and channel conditions in LTE mobility management in this paper:
 
 - http://mobileinsight.net/get_started.html
-- http://mobileinsight.net/getstarteddesktop.html
+- http://mobileinsight.net/get_started_desktop.html
 - http://mobileinsight.net/tutorial-api.html
-- http://mobileinsight.net/mobileinsight.analyzer.ltemeasurement_analyzer.html
-- http://mobileinsight.net/mobileinsight.analyzer.lterrc_analyzer.html
-- http://mobileinsight.net/mobileinsight.analyzer.mobilitymngt.html
+- http://mobileinsight.net/mobile_insight.analyzer.lte_measurement_analyzer.html
+- http://mobileinsight.net/mobile_insight.analyzer.lte_rrc_analyzer.html
+- http://mobileinsight.net/mobile_insight.analyzer.mobility_mngt.html
 
 
 ## Figures
