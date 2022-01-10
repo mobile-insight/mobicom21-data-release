@@ -68,7 +68,7 @@ Please contact support@mobileinsight.net for any questions or technical support.
 
 [1] Yuanjie Li, Chunyi Peng, Zhehui Zhang, Zhaowei Tan, Haotian Deng, Jinghao Zhao, Qianru Li, Yunqi Guo, Kai Ling, Boyan Ding, Hewu Li, Songwu Lu, ""Experience: A Five-Year Retrospective of MobileInsight", ACM MobiCom 2021
 
-[2] MobileInsight, https://www.mobileinsight.net
+[2] MobileInsight, http://www.mobileinsight.net
 
 ## License
 
